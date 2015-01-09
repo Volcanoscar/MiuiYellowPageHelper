@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:id="@+id/spinner"
+        android:layout_marginBottom="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"></Spinner>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/call_webview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/call_webview_uri"
+            android:hint="@string/hint_url"
+            style="@android:style/Widget.Holo.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/call_thirdapp_layout">
+
+        <EditText
+            android:hint="@string/hint_action"
+            android:id="@+id/call_thirdapp_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="@string/hint_data"
+            android:id="@+id/call_thirdapp_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="@string/hint_category"
+            android:id="@+id/call_thirdapp_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/generate"
+        android:text="@string/generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="20dip"
+        android:id="@+id/intent_uri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/copy"
+        android:text="@string/copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

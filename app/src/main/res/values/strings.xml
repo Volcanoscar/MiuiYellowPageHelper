@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YellowPageHelper</string>
+    <string name="generate">Generate</string>
+    <string name="copy">Copy to Clipboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_section_push_uri">Push Uri</string>
+
+    <string-array name="push_uri_action_array">
+        <item>Call webView</item>
+        <item>Call third-party apps</item>
+        <item>发快递</item>
+        <item>查快递</item>
+        <item>充值</item>
+    </string-array>
+
+    <string name="hint_url">URL</string>
+    <string name="hint_action">ACTION</string>
+    <string name="hint_data">DATA</string>
+    <string name="hint_category">CATEGORY</string>
+</resources>
